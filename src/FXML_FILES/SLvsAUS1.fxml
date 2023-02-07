@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SriLankavsAustralia">
+   <children>
+      <AnchorPane prefHeight="657.0" prefWidth="1297.0">
+         <children>
+            <AnchorPane>
+               <children>
+                  <ImageView fitHeight="657.0" fitWidth="1301.0" opacity="0.3" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/SLvAUS.jpg" />
+                     </image></ImageView>
+                  <Label fx:id="display13" layoutX="201.0" layoutY="564.0" prefHeight="17.0" prefWidth="499.0" />
+                  <Label layoutX="14.0" layoutY="543.0" prefHeight="17.0" prefWidth="141.0" text="Individual Batsman Score" />
+                  <Label fx:id="display12" layoutX="201.0" layoutY="539.0" prefHeight="25.0" prefWidth="560.0" />
+                  <Label layoutX="14.0" layoutY="469.0" prefHeight="20.0" prefWidth="114.0" text="No of wickets fallen" />
+                  <Label layoutX="14.0" layoutY="515.0" prefHeight="20.0" prefWidth="106.0" text="Best Batsman" />
+                  <Label fx:id="display6b" layoutX="203.0" layoutY="512.0" prefHeight="25.0" prefWidth="179.0" />
+                  <Label fx:id="display11" layoutX="203.0" layoutY="470.0" prefHeight="17.0" prefWidth="87.0" />
+                  <Label layoutX="14.0" layoutY="446.0" prefHeight="20.0" prefWidth="96.0" text="No of balls played" />
+                  <Label layoutX="14.0" layoutY="420.0" prefHeight="20.0" prefWidth="96.0" text="Scorelist" />
+                  <Label layoutX="14.0" layoutY="395.0" prefHeight="20.0" prefWidth="122.0" text="Score of the team" />
+                  <Label layoutX="14.0" layoutY="364.0" prefHeight="26.0" prefWidth="122.0" text="Second Inningns">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="display10" layoutX="203.0" layoutY="447.0" prefHeight="17.0" prefWidth="87.0" />
+                  <Label fx:id="display9" layoutX="203.0" layoutY="419.0" prefHeight="17.0" prefWidth="1098.0" />
+                  <Label fx:id="display8" layoutX="203.0" layoutY="396.0" prefHeight="17.0" prefWidth="106.0" />
+                  <Label layoutX="14.0" layoutY="320.0" prefHeight="17.0" prefWidth="106.0" text="Best Batsman" />
+                  <Label fx:id="display6a" layoutX="197.0" layoutY="316.0" prefHeight="25.0" prefWidth="192.0" />
+                  <Label layoutX="14.0" layoutY="31.0" prefHeight="33.0" prefWidth="179.0" text="SRI LANKA vs AUSTRALIA">
+                     <font>
+                        <Font name="Century Gothic Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="218.0" prefHeight="33.0" prefWidth="106.0" text="Dismissal Method" />
+                  <Label fx:id="display15" layoutX="189.0" layoutY="218.0" prefHeight="25.0" prefWidth="760.0" />
+                  <Label layoutX="14.0" layoutY="487.0" prefHeight="33.0" prefWidth="106.0" text="Dismissal Method" />
+                  <Label fx:id="display16" layoutX="204.0" layoutY="493.0" prefHeight="25.0" prefWidth="721.0" />
+                  <Label layoutX="355.0" layoutY="65.0" prefHeight="26.0" prefWidth="128.0" text="Toss won Team" />
+                  <Label fx:id="display1a" layoutX="461.0" layoutY="66.0" prefHeight="25.0" prefWidth="122.0" />
+                  <Label layoutX="623.0" layoutY="66.0" prefHeight="25.0" prefWidth="96.0" text="Winner" />
+                  <Label fx:id="W1" layoutX="747.0" layoutY="68.0" prefHeight="25.0" prefWidth="141.0" />
+                  <Label layoutX="469.0" layoutY="320.0" prefHeight="17.0" prefWidth="106.0" text="Best Bowler" />
+                  <Label fx:id="display6c" layoutX="615.0" layoutY="316.0" prefHeight="25.0" prefWidth="192.0" />
+                  <Label layoutX="469.0" layoutY="516.0" prefHeight="17.0" prefWidth="106.0" text="Best Bowler" />
+                  <Label fx:id="display6d" layoutX="623.0" layoutY="512.0" prefHeight="25.0" prefWidth="192.0" />
+                  <Button layoutX="831.0" layoutY="618.0" mnemonicParsing="false" onAction="#Winner" prefHeight="26.0" prefWidth="114.0" text="Winner" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="display1" layoutX="193.0" layoutY="67.0" prefHeight="26.0" prefWidth="141.0" />
+            <Label layoutX="14.0" layoutY="68.0" prefHeight="33.0" prefWidth="61.0" text="Toss" />
+            <Label layoutX="14.0" layoutY="107.0" prefHeight="33.0" prefWidth="106.0" text="Score of the team" />
+            <Label layoutX="14.0" layoutY="138.0" prefHeight="26.0" prefWidth="96.0" text="Scorelist" />
+            <Label layoutX="14.0" layoutY="165.0" prefHeight="26.0" prefWidth="96.0" text="No of balls played" />
+            <Label layoutX="14.0" layoutY="188.0" prefHeight="33.0" prefWidth="106.0" text="No of wickets fallen" />
+            <Label layoutX="14.0" layoutY="252.0" prefHeight="26.0" prefWidth="141.0" text="Individual Batsman Score" />
+            <Label layoutX="14.0" layoutY="282.0" prefHeight="33.0" prefWidth="141.0" text="Individual Bowler Score" />
+            <Label fx:id="display2" layoutX="193.0" layoutY="110.0" prefHeight="26.0" prefWidth="106.0" />
+            <Label fx:id="display3" layoutX="193.0" layoutY="138.0" prefHeight="20.0" prefWidth="1098.0" />
+            <Label fx:id="display4" layoutX="193.0" layoutY="166.0" prefHeight="20.0" prefWidth="96.0" />
+            <Label fx:id="display5" layoutX="193.0" layoutY="192.0" prefHeight="20.0" prefWidth="87.0" AnchorPane.leftAnchor="193.0" AnchorPane.rightAnchor="1021.0" AnchorPane.topAnchor="192.0" />
+            <Label fx:id="display6" layoutX="193.0" layoutY="257.0" prefHeight="20.0" prefWidth="730.0" />
+            <Label fx:id="display7" layoutX="199.0" layoutY="290.0" prefHeight="20.0" prefWidth="696.0" />
+            <Label layoutX="14.0" layoutY="569.0" prefHeight="17.0" prefWidth="141.0" text="Individual Bowler Score" />
+            <Button layoutX="299.0" layoutY="618.0" mnemonicParsing="false" onAction="#firstInningns" prefHeight="25.0" prefWidth="114.0" text="First Inningns" />
+            <Button layoutX="428.0" layoutY="618.0" mnemonicParsing="false" onAction="#secondInningns" prefHeight="25.0" prefWidth="114.0" text="Second Innings" />
+            <Button layoutX="558.0" layoutY="618.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="26.0" prefWidth="114.0" text="Next Match" />
+            <Button layoutX="696.0" layoutY="618.0" mnemonicParsing="false" onAction="#File" prefHeight="26.0" prefWidth="114.0" text="To File" />
+            <Button layoutX="207.0" layoutY="618.0" mnemonicParsing="false" onAction="#SLvsAUS" prefHeight="26.0" prefWidth="68.0" text="Toss" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

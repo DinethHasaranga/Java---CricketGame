@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="1064.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayerEditGroupB">
+   <children>
+      <ImageView fitHeight="592.0" fitWidth="1064.0" layoutY="-1.0" opacity="0.39" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/wallpaperflare.com_wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="output" layoutX="178.0" layoutY="99.0" prefHeight="18.0" prefWidth="164.0" />
+      <TextArea fx:id="Display4" layoutX="14.0" layoutY="50.0" opacity="0.89" prefHeight="285.0" prefWidth="200.0" />
+      <Button fx:id="DP4" layoutX="19.0" layoutY="358.0" mnemonicParsing="false" onAction="#ShowplayerIND" text="Display Players" />
+      <TextField fx:id="TRP4" layoutX="19.0" layoutY="392.0" />
+      <Label layoutX="19.0" layoutY="427.0" prefHeight="18.0" prefWidth="149.0" text="Type the player to remove" />
+      <Button layoutX="178.0" layoutY="392.0" mnemonicParsing="false" onAction="#DeleteplayerIND" prefHeight="25.0" prefWidth="59.0" text="Remove" />
+      <Label layoutX="19.0" layoutY="490.0" prefHeight="18.0" prefWidth="137.0" text="Type the player to add" />
+      <TextField fx:id="TAP4" layoutX="19.0" layoutY="454.0" />
+      <Button layoutX="178.0" layoutY="454.0" mnemonicParsing="false" onAction="#NewplayerIND" prefHeight="25.0" prefWidth="59.0" text="Add" />
+      <Label layoutX="372.0" layoutY="14.0" prefHeight="42.0" prefWidth="301.0" text="Player Add and Remove Group B">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="Display5" layoutX="301.0" layoutY="50.0" opacity="0.89" prefHeight="285.0" prefWidth="200.0" />
+      <TextField fx:id="TRP5" layoutX="298.0" layoutY="392.0" />
+      <TextField fx:id="TAP5" layoutX="298.0" layoutY="454.0" />
+      <Button layoutX="457.0" layoutY="392.0" mnemonicParsing="false" onAction="#DeleteplayerPAK" prefHeight="25.0" prefWidth="59.0" text="Remove" />
+      <Button layoutX="457.0" layoutY="454.0" mnemonicParsing="false" onAction="#NewplayerPAK" prefHeight="25.0" prefWidth="59.0" text="Add" />
+      <Label layoutX="298.0" layoutY="427.0" prefHeight="18.0" prefWidth="149.0" text="Type the player to remove" />
+      <Label layoutX="298.0" layoutY="490.0" prefHeight="18.0" prefWidth="137.0" text="Type the player to add" />
+      <Button fx:id="DP5" layoutX="301.0" layoutY="358.0" mnemonicParsing="false" onAction="#ShowplayerPAK" text="Display Players" />
+      <TextArea fx:id="Display6" layoutX="557.0" layoutY="50.0" opacity="0.89" prefHeight="285.0" prefWidth="200.0" />
+      <Button fx:id="DP6" layoutX="557.0" layoutY="358.0" mnemonicParsing="false" onAction="#ShowplayerAFG" text="Display Players" />
+      <TextField fx:id="TRP6" layoutX="557.0" layoutY="392.0" />
+      <Button layoutX="713.0" layoutY="392.0" mnemonicParsing="false" onAction="#DeleteplayerAFG" prefHeight="25.0" prefWidth="59.0" text="Remove" />
+      <Label layoutX="557.0" layoutY="427.0" prefHeight="18.0" prefWidth="149.0" text="Type the player to remove" />
+      <TextField fx:id="TAP6" layoutX="557.0" layoutY="454.0" />
+      <Button layoutX="713.0" layoutY="454.0" mnemonicParsing="false" onAction="#NewplayerAFG" prefHeight="25.0" prefWidth="59.0" text="Add" />
+      <Label layoutX="557.0" layoutY="490.0" prefHeight="18.0" prefWidth="137.0" text="Type the player to add" />
+      <TextArea fx:id="Display7" layoutX="822.0" layoutY="50.0" prefHeight="285.0" prefWidth="200.0" />
+      <Button fx:id="DP7" layoutX="827.0" layoutY="352.0" mnemonicParsing="false" onAction="#ShowplayerENG" text="Display Players" />
+      <TextField fx:id="TRP7" layoutX="827.0" layoutY="392.0" />
+      <Button layoutX="985.0" layoutY="392.0" mnemonicParsing="false" onAction="#DeleteplayerENG" prefHeight="25.0" prefWidth="59.0" text="Remove" />
+      <Label layoutX="827.0" layoutY="427.0" prefHeight="18.0" prefWidth="149.0" text="Type the player to remove" />
+      <TextField fx:id="TAP7" layoutX="827.0" layoutY="454.0" />
+      <Button layoutX="985.0" layoutY="454.0" mnemonicParsing="false" onAction="#NewplayerENG" prefHeight="25.0" prefWidth="59.0" text="Add" />
+      <Label layoutX="827.0" layoutY="490.0" prefHeight="18.0" prefWidth="137.0" text="Type the player to add" />
+      <Button layoutX="433.0" layoutY="543.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="35.0" prefWidth="137.0" text="Start Page" />
+       
+   </children>
+</AnchorPane>

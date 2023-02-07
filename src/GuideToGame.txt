@@ -1,0 +1,28 @@
+This file will explain how to play the game.
+
+Step 1
+Run the program.
+
+Step 2
+You will get a interface with three clickable buttons.
+	Start Tournament - To start the tournament.
+	Edit Player Information - To add and remove players
+	Team Information - To display the team compositions.
+
+Step 3
+Once you start the tournament you will be directed to the respective match interface.
+You will have six buttons.
+	Toss - To display the toss won team.
+	First Innings - To start the first innings of the match.
+	Second Innings - To start the second innings of the match.
+	Next Match - To go to the next match.
+	To File - To write the match summary to a file.
+	Winner - To display the winner of the current match.
+
+Step 4
+Once all the matches related to both groups ends the user can get the tournament standings.
+Click the show button in the Tournament Standings interface. 
+
+Step 5
+Click the cross in the top right corner to quit the game.
+Click play again if you want to play tournament again.
